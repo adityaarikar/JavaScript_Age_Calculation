@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    margin-top: 100px;
+    background-color: purple;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.container .row .main{
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+
+.container .row .btn{
+    margin: 0px auto;
+}
+
+.container .small{
+    margin: 20px auto;
+    padding: 20px;
+    height: 250px;
+    width: 500px;
+    background-color: palevioletred;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #473838;
+}
+
+.container .small .row h1{
+    text-align: center;
+}
+
+.container .small .row .dob-box{
+    margin: auto;
+}
+.container .small .row .dob-box label{
+    font-size: 25px;
+}
+
+.container .small .row .dob-box input{
+    size: 3rem;
+}
+
+.container #result{
+    padding-top: 15px;
+    text-align: center;
+}

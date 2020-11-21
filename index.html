@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finding Age</title>
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 p-0">
+                <h1 class="main">
+                    I Will Tell Your Age In Days
+                </h1>
+            </div>
+        </div>
+
+        <div class="small">
+            <div class="row">
+                <div class="col-12 p-3">
+                    <h1>
+                        Enter Your DOB...
+                    </h1>
+                </div>
+                <div class="dob-box">
+                    <label>Date</label>
+                    <input type="date" id="date">
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="btn btn-primary" onclick="calculateAge()">
+                    Get Your Age
+                </div>
+                <div class="btn btn-danger" onclick="reset()">
+                    Reset
+                </div>
+            </div>
+        </div>
+
+        <div id="result"></div>
+
+
+    </div>
+
+
+
+
+    <script src="JS/bootstrap.min.js"></script>
+    <script src="JS/script.js"></script>
+</body>
+
+</html>
